@@ -1,0 +1,12 @@
+export enum EColor {
+  COLOR_INTERACTION = "#EE685F",
+  COLOR_ACCENT = "#2A90D9",
+  TEXT_900 = "#1A1A1A",
+  TEXT_800 = "#262729", // 포커스 컬러
+  TEXT_700 = "#858585",
+  TEXT_600 = "#999999",
+  TEXT_500 = "#D6D6D6",
+  TEXT_400 = "#F3F2F0",
+  TEXT_300 = "#F7F7F7",
+  TEXT_200 = "#FFFFFF",
+}
