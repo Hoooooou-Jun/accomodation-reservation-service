@@ -19,6 +19,14 @@
         "displayName": true,
         "preprocess": false
       }
-    ],
+    ]
+    // [
+    //   "babel-plugin-styled-components",
+    //   {
+    //       "fileName": true,
+    //       "displayName": true,
+    //       "pure": true
+    //   }
+    // ]
   ]
 }

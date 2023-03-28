@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const Title = styled.div`
+  text-align: center;
+  font-family: 'NotoSansKR-Thin';
+`;
 
 function Home() {
   return (
-    <div>Home</div>
+    <main>
+      <div style={{ fontFamily: 'NotoSansKR-Black' }}>asdfasd</div>
+      <Title>asdfa</Title>
+    </main>
   );
 };
 
