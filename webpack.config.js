@@ -11,21 +11,7 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
   },
   module: {
-    rules: [
-      { test: /\.tsx$/, use: ['babel-loader', 'ts-loader'] },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              outputPath: 'public/assets/font/',
-            }
-          }
-        ]
-      },
-      { test: /\.scss$/, use: ['style-loader', 'css-loader'] },
-    ],
+    rules: [],
   },
   optimization: { minimizer: [] },
 };

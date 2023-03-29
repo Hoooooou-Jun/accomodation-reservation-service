@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Title = styled.div`
   text-align: center;
-  font-family: 'NotoSansKR-Thin';
+  font-family: 'NotoSansKR-Bold';
 `;
 
 function Home() {

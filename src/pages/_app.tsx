@@ -1,11 +1,11 @@
 import type { AppProps } from 'next/app'
-import GlobalStyle from '../../public/assets/font/font.css'
+import GlobalFont from '@/styles/GlobalFont'
 
 export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <GlobalStyle />
+      <GlobalFont />
       <Component {...pageProps} />
     </>
   )
