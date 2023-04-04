@@ -1,6 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalFont =  createGlobalStyle`
+const GlobalStyle =  createGlobalStyle`
+  button:active {
+    box-shadow: inset -.3rem -.1rem 1.4rem  #FBFBFB, inset .3rem .4rem .8rem #BEC5D0;
+    cursor: pointer;
+		outline: none;
+  }
   @font-face {
     font-family: "NotoSansKR-Bold";
     src: url('/fonts/NotoSansKR-Bold.woff') format('woff');
@@ -27,4 +32,4 @@ const GlobalFont =  createGlobalStyle`
 	}
 `;
 
-export default GlobalFont;
+export default GlobalStyle;
