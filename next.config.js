@@ -13,6 +13,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      },
       { test: /\.tsx$/, use: ['babel-loader', 'ts-loader'] },
       { test: /\.scss$/, use: ['style-loader', 'css-loader'] },
     );
