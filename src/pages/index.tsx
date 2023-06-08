@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import React from 'react';
 import HomeTitle from './HomeTitle';
 import HomeContent from './HomeContent';
+import HomeMiddleContent from './HomeMiddleContent';
 
 function Home() {
   const handleButton = () => {
@@ -11,9 +12,8 @@ function Home() {
     <main>
       <Header />
       <HomeTitle />
-      <HomeTitle />
-      <HomeTitle />
       <HomeContent />
+      <HomeMiddleContent />
     </main>
   );
 };

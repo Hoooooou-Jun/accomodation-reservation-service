@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageText1, ImageText2, ImageText3, ImageTextView, ImageView, MainContainer, TitleBox } from './Home.styled';
 import Image from 'next/image';
-import TitleImage from '../../public/assets/main.png';
+import TitleImage from '../../public/assets/main.jpg';
 
 function HomeTitle() {
   return (
@@ -22,7 +22,6 @@ function HomeTitle() {
           <Image style={{ display: 'flex',  borderRadius: 20, width: '100%', height: '100%', opacity: 0.7 }} src={TitleImage} alt='asdf' />
         </ImageView>
       </TitleBox>
-
     </MainContainer>
   );
 };
