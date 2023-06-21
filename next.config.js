@@ -18,7 +18,7 @@ module.exports = {
         use: ['@svgr/webpack'],
       },
       { test: /\.tsx$/, use: ['babel-loader', 'ts-loader'] },
-      { test: /\.scss$/, use: ['style-loader', 'css-loader'] },
+      { test: /\.(sass|less|css)$/, use: ['style-loader', 'css-loader', 'less-loader'] },
     );
     return config;
   },
